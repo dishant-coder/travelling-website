@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTravelling – Explore. Travel. Experience.</title>
+    
+    <!-- Meta Descriptions & SEO -->
+    <meta name="description" content="GTravelling is your go-to travel blogging platform to explore scenic destinations, discover practical travel tips, thrill in adventures, and experience rich food and culture.">
+    <meta name="keywords" content="travel blog, GTravelling, travel tips, Indian destinations, Goa, Rajasthan, Kerala, Manali, Kashmir, adventure travel, Indian food and culture">
+    <meta name="author" content="GTravelling Team">
+    <meta name="theme-color" content="#432818">
+
+    <!-- Google Fonts: Outfit (modern body) & Playfair Display (editorial serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =======================================================================
+         HEADER & NAVIGATION
+         ======================================================================= -->
+    <header class="header" id="mainHeader">
+        <div class="container header-container">
+            <!-- Brand Logo -->
+            <a href="#home" class="logo" aria-label="GTravelling Home">
+                <div class="logo-icon">
+                    <!-- Compass Travel Icon -->
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">G<span>Travelling</span></span>
+                    <span class="logo-tagline">Explore • Travel • Experience</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav" aria-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                    <li><a href="#travel-tips" class="nav-link">Travel Tips</a></li>
+                    <li><a href="#adventures" class="nav-link">Adventures</a></li>
+                    <li><a href="#food-culture" class="nav-link">Food & Culture</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Header Right Actions: Search Box & Mobile Hamburger -->
+            <div class="header-actions">
+                <div class="header-search">
+                    <svg class="header-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="headerSearchInput" class="header-search-input" placeholder="Search stories..." aria-label="Search travel stories">
+                </div>
+
+                <!-- Hamburger Menu Button -->
+                <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile Navigation">
+        <ul class="mobile-nav-list">
+            <li><a href="#home" class="mobile-nav-link"><span>Home</span> <span>→</span></a></li>
+            <li><a href="#destinations" class="mobile-nav-link"><span>Destinations</span> <span>→</span></a></li>
+            <li><a href="#travel-tips" class="mobile-nav-link"><span>Travel Tips</span> <span>→</span></a></li>
+            <li><a href="#adventures" class="mobile-nav-link"><span>Adventures</span> <span>→</span></a></li>
+            <li><a href="#food-culture" class="mobile-nav-link"><span>Food & Culture</span> <span>→</span></a></li>
+            <li><a href="#about" class="mobile-nav-link"><span>About</span> <span>→</span></a></li>
+            <li><a href="#contact" class="mobile-nav-link"><span>Contact</span> <span>→</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- =======================================================================
+         HERO SECTION
+         ======================================================================= -->
+    <section class="hero" id="home">
+        <!-- Background Travel Image with subtle dark warm overlay -->
+        <img src="images/hero.jpg" alt="Travel Landscape" class="hero-bg" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&auto=format&fit=crop&q=80';">
+        <div class="hero-overlay"></div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    <span>Your Ultimate Journey Begins Here</span>
+                </div>
+
+                <h1 class="hero-heading">Explore the World with <span>GTravelling</span></h1>
+
+                <p class="hero-subtitle">
+                    Discover beautiful places, unforgettable experiences, and travel stories. 
+                    From sun-drenched coastal havens to towering snowy peaks, wander with curiosity and purpose.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#destinations" class="btn btn-primary">
+                        <span>Explore Destinations</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                    <a href="#blogs" class="btn btn-outline">
+                        <span>Read Travel Stories</span>
+                    </a>
+                </div>
+
+                <!-- Hero Quick Stats -->
+                <div class="hero-stats">
+                    <div class="hero-stat-item">
+                        <span class="hero-stat-number">50+</span>
+                        <span class="hero-stat-label">Destinations</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <span class="hero-stat-number">100+</span>
+                        <span class="hero-stat-label">Travel Stories</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <span class="hero-stat-number">4.9 ★</span>
+                        <span class="hero-stat-label">Reader Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+         FEATURED BLOGS SECTION ("Featured Travel Stories")
+         ======================================================================= -->
+    <section class="blogs-section" id="blogs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Curated Stories</span>
+                <h2 class="section-title">Featured Travel Stories</h2>
+                <p class="section-subtitle">Real experiences, insider itineraries, and smart packing secrets written by passionate travelers.</p>
+            </div>
+
+            <!-- Controls: Category Filter + Dynamic Search -->
+            <div class="blog-controls">
+                <!-- Category Buttons -->
+                <div class="category-filter" role="tablist" aria-label="Blog categories">
+                    <button class="filter-btn active" data-category="All">All</button>
+                    <button class="filter-btn" data-category="Destinations">Destinations</button>
+                    <button class="filter-btn" data-category="Travel Tips">Travel Tips</button>
+                    <button class="filter-btn" data-category="Adventure">Adventure</button>
+                    <button class="filter-btn" data-category="Food & Culture">Food & Culture</button>
+                </div>
+
+                <!-- Search Input with Clear Button -->
+                <div class="blog-search-box">
+                    <svg class="blog-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="blogSearchInput" class="blog-search-input" placeholder="Search blog title or keyword..." aria-label="Search blogs">
+                    <button id="blogSearchClear" class="blog-search-clear" aria-label="Clear search">✕</button>
+                </div>
+            </div>
+
+            <!-- Blog Count Display -->
+            <div style="margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--color-text-muted); font-weight: 500;">
+                <span id="blogCount">Showing 6 travel stories</span>
+            </div>
+
+            <!-- Dynamic Blog Cards Grid (Populated via script.js) -->
+            <div class="blogs-grid" id="blogsGrid">
+                <!-- Blog cards are dynamically injected here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+         DESTINATIONS SECTION
+         Cards for: Goa, Rajasthan, Kerala, Manali, Jaipur, Kashmir
+         ======================================================================= -->
+    <section class="destinations-section" id="destinations">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Explore India</span>
+                <h2 class="section-title">Iconic Destinations</h2>
+                <p class="section-subtitle">From golden sands and imperial forts to emerald backwaters and snow-clad Himalayan peaks.</p>
+            </div>
+
+            <div class="destinations-grid">
+                <!-- 1. Goa -->
+                <article class="destination-card">
+                    <div class="destination-image-box">
+                        <img src="images/goa.jpg" alt="Goa Beaches" class="destination-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&auto=format&fit=crop&q=80';">
+                        <span class="destination-badge">Tropical Coastal</span>
+                    </div>
+                    <div class="destination-body">
+                        <h3 class="destination-name">Goa</h3>
+                        <p class="destination-desc">Sun-kissed beaches, Portuguese-colonial architecture, vibrant night bazaars, and fresh coastal seafood.</p>
+                        <div class="destination-footer">
+                            <span class="destination-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                West Coast
+                            </span>
+                            <button class="btn-card btn-explore-destination" data-destination="Goa">Explore</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 2. Rajasthan -->
+                <article class="destination-card">
+                    <div class="destination-image-box">
+                        <img src="images/rajasthan.jpg" alt="Rajasthan Desert Dunes" class="destination-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80';">
+                        <span class="destination-badge">Royal Heritage</span>
+                    </div>
+                    <div class="destination-body">
+                        <h3 class="destination-name">Rajasthan</h3>
+                        <p class="destination-desc">Golden Thar desert dunes, majestic living forts, camel safaris, and legendary Rajput folklore.</p>
+                        <div class="destination-footer">
+                            <span class="destination-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                North-West
+                            </span>
+                            <button class="btn-card btn-explore-destination" data-destination="Rajasthan">Explore</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 3. Kerala -->
+                <article class="destination-card">
+                    <div class="destination-image-box">
+                        <img src="images/kerala.jpg" alt="Kerala Backwaters" class="destination-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&auto=format&fit=crop&q=80';">
+                        <span class="destination-badge">God's Own Country</span>
+                    </div>
+                    <div class="destination-body">
+                        <h3 class="destination-name">Kerala</h3>
+                        <p class="destination-desc">Tranquil backwater houseboats, rolling tea hills of Munnar, soothing Ayurveda, and lush palm-lined canals.</p>
+                        <div class="destination-footer">
+                            <span class="destination-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                South Coast
+                            </span>
+                            <button class="btn-card btn-explore-destination" data-destination="Kerala">Explore</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 4. Manali -->
+                <article class="destination-card">
+                    <div class="destination-image-box">
+                        <img src="images/manali.jpg" alt="Manali Snow Mountains" class="destination-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&auto=format&fit=crop&q=80';">
+                        <span class="destination-badge">Himalayan Wonderland</span>
+                    </div>
+                    <div class="destination-body">
+                        <h3 class="destination-name">Manali</h3>
+                        <p class="destination-desc">Towering snow-clad peaks, Solang Valley sports, fragrant deodar forests, and vibrant mountain cafes.</p>
+                        <div class="destination-footer">
+                            <span class="destination-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Himachal Pradesh
+                            </span>
+                            <button class="btn-card btn-explore-destination" data-destination="Manali">Explore</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 5. Jaipur -->
+                <article class="destination-card">
+                    <div class="destination-image-box">
+                        <img src="images/jaipur.jpg" alt="Jaipur Hawa Mahal" class="destination-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=800&auto=format&fit=crop&q=80';">
+                        <span class="destination-badge">The Pink City</span>
+                    </div>
+                    <div class="destination-body">
+                        <h3 class="destination-name">Jaipur</h3>
+                        <p class="destination-desc">Iconic honeycomb facade of Hawa Mahal, Amer Fort elephant trails, gemstone bazaars, and royal delicacies.</p>
+                        <div class="destination-footer">
+                            <span class="destination-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Golden Triangle
+                            </span>
+                            <button class="btn-card btn-explore-destination" data-destination="Jaipur">Explore</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 6. Kashmir -->
+                <article class="destination-card">
+                    <div class="destination-image-box">
+                        <img src="images/kashmir.jpg" alt="Kashmir Dal Lake" class="destination-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=800&auto=format&fit=crop&q=80';">
+                        <span class="destination-badge">Paradise on Earth</span>
+                    </div>
+                    <div class="destination-body">
+                        <h3 class="destination-name">Kashmir</h3>
+                        <p class="destination-desc">Graceful wooden Shikara rides on Dal Lake, Gulmarg gondolas, blooming saffron fields, and alpine valleys.</p>
+                        <div class="destination-footer">
+                            <span class="destination-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                North India
+                            </span>
+                            <button class="btn-card btn-explore-destination" data-destination="Kashmir">Explore</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+         TRAVEL TIPS SECTION
+         Cards: How to Pack Smart, Budget Travel Tips, Travel Safety Tips,
+         Best Apps for Travellers, How to Plan a Trip, Essential Travel Checklist
+         ======================================================================= -->
+    <section class="tips-section" id="travel-tips">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Travel Smarter</span>
+                <h2 class="section-title">Practical Travel Tips</h2>
+                <p class="section-subtitle">Field-tested insights to save money, keep your belongings safe, and navigate journeys like a pro.</p>
+            </div>
+
+            <div class="tips-grid">
+                <!-- Tip 1 -->
+                <div class="tip-card">
+                    <div class="tip-icon-box">
+                        <!-- Backpack icon -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="4" y="8" width="16" height="12" rx="2"></rect>
+                            <path d="M9 8V5a3 3 0 0 1 6 0v3"></path>
+                            <path d="M12 12v3"></path>
+                        </svg>
+                    </div>
+                    <h3 class="tip-title">How to Pack Smart</h3>
+                    <p class="tip-desc">Maximize suitcase space and eliminate excess baggage fees with minimal weight techniques.</p>
+                    <div class="tip-points">
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Roll garments instead of folding
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Use breathable compression cubes
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Pack versatile neutral color palettes
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tip 2 -->
+                <div class="tip-card">
+                    <div class="tip-icon-box">
+                        <!-- Wallet icon -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"></path>
+                            <path d="M4 6v12a2 2 0 0 0 2 2h14v-4"></path>
+                            <circle cx="18" cy="14" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="tip-title">Budget Travel Tips</h3>
+                    <p class="tip-desc">Stretch your travel rupee further without compromising on cleanliness and memorable moments.</p>
+                    <div class="tip-points">
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Book sleeper trains for overnight travel
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Dine at busy local street food dhabas
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Travel during off-peak shoulder months
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tip 3 -->
+                <div class="tip-card">
+                    <div class="tip-icon-box">
+                        <!-- Shield icon -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="tip-title">Travel Safety Tips</h3>
+                    <p class="tip-desc">Essential precautions to protect yourself, your digital data, and your travel funds on the road.</p>
+                    <div class="tip-points">
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Store digital copies of passports online
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Avoid walking solitary unlit streets late
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Share your live trip itinerary with family
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tip 4 -->
+                <div class="tip-card">
+                    <div class="tip-icon-box">
+                        <!-- Smartphone app icon -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                        </svg>
+                    </div>
+                    <h3 class="tip-title">Best Apps for Travellers</h3>
+                    <p class="tip-desc">Must-have mobile applications for offline maps, language translation, and instant transit booking.</p>
+                    <div class="tip-points">
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Google Maps with offline regions
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            IRCTC & Where Is My Train apps
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Splitwise for easy group expense splits
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tip 5 -->
+                <div class="tip-card">
+                    <div class="tip-icon-box">
+                        <!-- Calendar / Plan icon -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3 class="tip-title">How to Plan a Trip</h3>
+                    <p class="tip-desc">A structured blueprint to organize flights, lodging, and flexible buffer time without burnout.</p>
+                    <div class="tip-points">
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Fix duration & pick 2-3 anchor cities
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Leave 1 free unscripted exploration day
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Confirm seasonal permits in advance
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tip 6 -->
+                <div class="tip-card">
+                    <div class="tip-icon-box">
+                        <!-- Checklist icon -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 11l3 3L22 4"></path>
+                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                        </svg>
+                    </div>
+                    <h3 class="tip-title">Essential Travel Checklist</h3>
+                    <p class="tip-desc">Never leave home without these lifesaver essentials for stress-free exploration.</p>
+                    <div class="tip-points">
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            High-capacity 20,000mAh power bank
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Universal adapter & reusable bottle
+                        </div>
+                        <div class="tip-point-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Custom first aid kit & ORS sachets
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+         ADVENTURE EXPERIENCES SECTION
+         Cards: Trekking, Camping, Scuba Diving, Mountain Adventures, Wildlife Safari, Road Trips
+         ======================================================================= -->
+    <section class="adventure-section" id="adventures">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Thrill & Outdoors</span>
+                <h2 class="section-title">Adventure Experiences</h2>
+                <p class="section-subtitle">Fuel your adrenaline across alpine ridgelines, crystal reef depths, and untamed jungles.</p>
+            </div>
+
+            <div class="adventure-grid">
+                <!-- 1. Trekking -->
+                <div class="adventure-card">
+                    <img src="images/trekking.jpg" alt="Himalayan Trekking" class="adventure-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&auto=format&fit=crop&q=80';">
+                    <div class="adventure-overlay">
+                        <span class="adventure-badge">Altitude Trail</span>
+                        <h3 class="adventure-title">Trekking</h3>
+                        <p class="adventure-desc">Traverse scenic passes like Triund, Kedarkantha, and Valley of Flowers with breathtaking views.</p>
+                        <div class="adventure-meta">
+                            <span>Season: Apr - Jun & Sep - Nov</span>
+                            <span>Level: Moderate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Camping -->
+                <div class="adventure-card">
+                    <img src="images/camping.jpg" alt="Wilderness Camping" class="adventure-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&auto=format&fit=crop&q=80';">
+                    <div class="adventure-overlay">
+                        <span class="adventure-badge">Under The Stars</span>
+                        <h3 class="adventure-title">Camping</h3>
+                        <p class="adventure-desc">Pitch your tent alongside turquoise rivers in Rishikesh or gaze upon the Milky Way in Spiti.</p>
+                        <div class="adventure-meta">
+                            <span>Season: Year-round</span>
+                            <span>Level: Easy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Scuba Diving -->
+                <div class="adventure-card">
+                    <img src="images/scuba.jpg" alt="Scuba Diving in Andamans" class="adventure-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&auto=format&fit=crop&q=80';">
+                    <div class="adventure-overlay">
+                        <span class="adventure-badge">Ocean Depths</span>
+                        <h3 class="adventure-title">Scuba Diving</h3>
+                        <p class="adventure-desc">Plunge into pristine coral gardens in Havelock and Netrani to swim with manta rays and turtles.</p>
+                        <div class="adventure-meta">
+                            <span>Season: Oct - May</span>
+                            <span>Level: Beginner to Pro</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Mountain Adventures -->
+                <div class="adventure-card">
+                    <img src="images/mountains.jpg" alt="Mountain Paragliding" class="adventure-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80';">
+                    <div class="adventure-overlay">
+                        <span class="adventure-badge">Aerial Heights</span>
+                        <h3 class="adventure-title">Mountain Adventures</h3>
+                        <p class="adventure-desc">Soar high while paragliding in Bir Billing, rock climb in Hampi, or ski down snowy slopes in Solang.</p>
+                        <div class="adventure-meta">
+                            <span>Season: Oct - Mar</span>
+                            <span>Level: Moderate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Wildlife Safari -->
+                <div class="adventure-card">
+                    <img src="images/safari.jpg" alt="Wildlife Safari Tiger" class="adventure-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&auto=format&fit=crop&q=80';">
+                    <div class="adventure-overlay">
+                        <span class="adventure-badge">Wild Habitats</span>
+                        <h3 class="adventure-title">Wildlife Safari</h3>
+                        <p class="adventure-desc">Track royal Bengal tigers in Ranthambore and Jim Corbett, and spot one-horned rhinos in Kaziranga.</p>
+                        <div class="adventure-meta">
+                            <span>Season: Nov - Jun</span>
+                            <span>Level: All Ages</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Road Trips -->
+                <div class="adventure-card">
+                    <img src="images/roadtrip.jpg" alt="Epic Road Trip" class="adventure-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&auto=format&fit=crop&q=80';">
+                    <div class="adventure-overlay">
+                        <span class="adventure-badge">Open Highway</span>
+                        <h3 class="adventure-title">Road Trips</h3>
+                        <p class="adventure-desc">Cruise the world-famous Manali-Leh highway, the Konkan coastal stretch, or the Western Ghats passes.</p>
+                        <div class="adventure-meta">
+                            <span>Season: May - Oct</span>
+                            <span>Level: Adventurous</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+         FOOD & CULTURE SECTION
+         Cards: Indian street food, Traditional festivals, Local cuisines,
+         Cultural experiences, Famous markets, Traditional art
+         ======================================================================= -->
+    <section class="food-culture-section" id="food-culture">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Flavors & Traditions</span>
+                <h2 class="section-title">Food & Culture</h2>
+                <p class="section-subtitle">Immerse your senses in India's unmatched culinary heritage, ancient arts, and lively community celebrations.</p>
+            </div>
+
+            <div class="culture-grid">
+                <!-- 1. Indian Street Food -->
+                <article class="culture-card">
+                    <div class="culture-img-box">
+                        <img src="images/street-food.jpg" alt="Indian Street Food" class="culture-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop&q=80';">
+                        <span class="culture-category-tag">Street Bites</span>
+                    </div>
+                    <div class="culture-body">
+                        <h3 class="culture-title">Indian Street Food</h3>
+                        <p class="culture-desc">Crispy samosas, zesty pani puris of Old Delhi, Mumbai's spicy vada pav, and Kolkata's famous kathi rolls.</p>
+                        <div class="culture-highlights">
+                            <span class="culture-pill">Pani Puri</span>
+                            <span class="culture-pill">Vada Pav</span>
+                            <span class="culture-pill">Chaat</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 2. Traditional Festivals -->
+                <article class="culture-card">
+                    <div class="culture-img-box">
+                        <img src="images/festivals.jpg" alt="Traditional Indian Festivals" class="culture-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&auto=format&fit=crop&q=80';">
+                        <span class="culture-category-tag">Celebrations</span>
+                    </div>
+                    <div class="culture-body">
+                        <h3 class="culture-title">Traditional Festivals</h3>
+                        <p class="culture-desc">The brilliant clay lamps of Diwali, exuberant color bursts of Holi, and vibrant desert music at the Pushkar Fair.</p>
+                        <div class="culture-highlights">
+                            <span class="culture-pill">Diwali</span>
+                            <span class="culture-pill">Holi Colors</span>
+                            <span class="culture-pill">Pushkar Fair</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 3. Local Cuisines -->
+                <article class="culture-card">
+                    <div class="culture-img-box">
+                        <img src="images/cuisines.jpg" alt="Local Indian Cuisines" class="culture-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&auto=format&fit=crop&q=80';">
+                        <span class="culture-category-tag">Gastronomy</span>
+                    </div>
+                    <div class="culture-body">
+                        <h3 class="culture-title">Local Cuisines</h3>
+                        <p class="culture-desc">Feast on traditional Kerala banana leaf sadhya, Rajasthani dal baati churma, and Kashmir's 36-course royal wazwan.</p>
+                        <div class="culture-highlights">
+                            <span class="culture-pill">Kerala Sadhya</span>
+                            <span class="culture-pill">Dal Baati</span>
+                            <span class="culture-pill">Wazwan</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 4. Cultural Experiences -->
+                <article class="culture-card">
+                    <div class="culture-img-box">
+                        <img src="images/culture.jpg" alt="Indian Cultural Dance" class="culture-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&auto=format&fit=crop&q=80';">
+                        <span class="culture-category-tag">Rituals & Arts</span>
+                    </div>
+                    <div class="culture-body">
+                        <h3 class="culture-title">Cultural Experiences</h3>
+                        <p class="culture-desc">Mesmerizing Kathakali dance dramas, spiritual evening Ganga Aarti on Varanasi ghats, and Sufi qawwali nights.</p>
+                        <div class="culture-highlights">
+                            <span class="culture-pill">Kathakali</span>
+                            <span class="culture-pill">Ganga Aarti</span>
+                            <span class="culture-pill">Folk Music</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 5. Famous Markets -->
+                <article class="culture-card">
+                    <div class="culture-img-box">
+                        <img src="images/markets.jpg" alt="Traditional Indian Bazaars" class="culture-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80';">
+                        <span class="culture-category-tag">Bazaars & Souvenirs</span>
+                    </div>
+                    <div class="culture-body">
+                        <h3 class="culture-title">Famous Markets</h3>
+                        <p class="culture-desc">Treasure hunt across Jaipur's Johari jewel bazaar, Delhi's fragrant Chandni Chowk, and Goa's vibrant flea markets.</p>
+                        <div class="culture-highlights">
+                            <span class="culture-pill">Johari Bazaar</span>
+                            <span class="culture-pill">Chandni Chowk</span>
+                            <span class="culture-pill">Anjuna Flea</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 6. Traditional Art -->
+                <article class="culture-card">
+                    <div class="culture-img-box">
+                        <img src="images/art.jpg" alt="Traditional Indian Handicrafts" class="culture-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80';">
+                        <span class="culture-category-tag">Master Crafts</span>
+                    </div>
+                    <div class="culture-body">
+                        <h3 class="culture-title">Traditional Art</h3>
+                        <p class="culture-desc">Folk Madhubani paintings, Jaipur's famous blue pottery, Bagru wooden block prints, and intricate brass carvings.</p>
+                        <div class="culture-highlights">
+                            <span class="culture-pill">Madhubani</span>
+                            <span class="culture-pill">Blue Pottery</span>
+                            <span class="culture-pill">Block Printing</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+         ABOUT SECTION
+         ======================================================================= -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-content">
+                    <span class="section-tag">Our Vision & Mission</span>
+                    <h2 class="section-title">About GTravelling</h2>
+                    
+                    <div class="about-quote">
+                        "GTravelling is a travel blogging platform created to inspire travellers to explore new destinations, experience different cultures, and create unforgettable memories."
+                    </div>
+
+                    <p class="about-text">
+                        Founded by wanderers who believe travel is the best teacher, GTravelling bridges the gap between tourist curiosity and authentic local connection. We craft comprehensive itineraries, budget breakdowns, and safety tips so you can focus on the thrill of discovering new horizons.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="about-feature-item">
+                            <div class="feature-icon-circle">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="feature-title">Authentic Guides</h4>
+                                <p class="feature-desc">Tested by real travelers on the ground.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-feature-item">
+                            <div class="feature-icon-circle">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="feature-title">Smart Budgeting</h4>
+                                <p class="feature-desc">Actionable tips for student & budget trips.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-feature-item">
+                            <div class="feature-icon-circle">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="feature-title">Eco & Respectful</h4>
+                                <p class="feature-desc">Promoting sustainable and zero-waste travel.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-feature-item">
+                            <div class="feature-icon-circle">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="feature-title">Travel Community</h4>
+                                <p class="feature-desc">100,000+ active readers and contributors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Card / Stats Grid -->
+                <div class="about-card-box">
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <div class="stat-num">50+</div>
+                            <div class="stat-text">Destination Guides</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-num">100K+</div>
+                            <div class="stat-text">Monthly Readers</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-num">250+</div>
+                            <div class="stat-text">Travel Articles</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-num">15+</div>
+                            <div class="stat-text">Passionate Writers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+         NEWSLETTER SECTION
+         ======================================================================= -->
+    <section class="newsletter-section" id="newsletter">
+        <div class="container">
+            <div class="newsletter-box">
+                <div class="newsletter-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </div>
+                <h2 class="newsletter-title">Get Travel Stories in Your Inbox</h2>
+                <p class="newsletter-desc">
+                    Subscribe to receive handpicked travel itineraries, secret flight deals, and inspiring wanderlust directly in your email twice a month. Zero spam, ever.
+                </p>
+
+                <form class="newsletter-form" id="newsletterForm" novalidate>
+                    <input type="email" id="newsletterEmail" class="newsletter-input" placeholder="Enter your email address..." required aria-label="Email address for newsletter">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+
+                <div id="newsletterMsg" class="newsletter-message" role="alert"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+         CONTACT SECTION
+         ======================================================================= -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">We’d Love to Hear from You</h2>
+                <p class="section-subtitle">Have questions about an upcoming journey, want to share your travel story, or collaborate with GTravelling?</p>
+            </div>
+
+            <div class="contact-layout">
+                <!-- Contact Info Cards -->
+                <div class="contact-info">
+                    <div class="contact-card-item">
+                        <div class="contact-icon-box">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div class="contact-card-text">
+                            <h4>Direct Email</h4>
+                            <p>contact@gtravelling.com</p>
+                            <p>editor@gtravelling.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card-item">
+                        <div class="contact-icon-box">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div class="contact-card-text">
+                            <h4>Phone / WhatsApp</h4>
+                            <p>+91 (800) 123-4567</p>
+                            <p>Mon - Sat (9:00 AM - 6:00 PM IST)</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card-item">
+                        <div class="contact-icon-box">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div class="contact-card-text">
+                            <h4>Headquarters</h4>
+                            <p>GTravelling Media Hub, Connaught Place</p>
+                            <p>New Delhi, 110001, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form with JS Validation -->
+                <div class="contact-form-box">
+                    <form id="contactForm" novalidate>
+                        <!-- Full Name -->
+                        <div class="form-group">
+                            <label for="contactName" class="form-label">Full Name *</label>
+                            <input type="text" id="contactName" class="form-input" placeholder="e.g. Dishant Sharma" required>
+                            <div class="error-message"></div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group">
+                            <label for="contactEmail" class="form-label">Email Address *</label>
+                            <input type="email" id="contactEmail" class="form-input" placeholder="e.g. traveler@example.com" required>
+                            <div class="error-message"></div>
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="form-group">
+                            <label for="contactSubject" class="form-label">Subject *</label>
+                            <input type="text" id="contactSubject" class="form-input" placeholder="e.g. Question about Goa itinerary" required>
+                            <div class="error-message"></div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group">
+                            <label for="contactMessage" class="form-label">Message *</label>
+                            <textarea id="contactMessage" class="form-textarea" placeholder="Write your message or inquiry here..." required></textarea>
+                            <div class="error-message"></div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="form-submit-btn">Send Message</button>
+                    </form>
+
+                    <!-- Success Alert Banner -->
+                    <div id="contactSuccessAlert" class="contact-success-alert" role="alert">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span>Thank you! Your message has been sent successfully. Our travel team will reply shortly.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+         FOOTER
+         ======================================================================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo & Mission -->
+                <div class="footer-col">
+                    <a href="#home" class="logo" style="margin-bottom: 0.5rem;" aria-label="GTravelling Home">
+                        <div class="logo-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">G<span>Travelling</span></span>
+                            <span class="logo-tagline">Explore • Travel • Experience</span>
+                        </div>
+                    </a>
+                    <p class="footer-desc">
+                        Inspiring globetrotters, backpackers, and culture enthusiasts to explore breathtaking destinations, savor authentic cuisines, and travel mindfully.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                        <a href="https://youtube.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h3 class="footer-col-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">› Home</a></li>
+                        <li><a href="#destinations" class="footer-link">› Destinations</a></li>
+                        <li><a href="#travel-tips" class="footer-link">› Travel Tips</a></li>
+                        <li><a href="#adventures" class="footer-link">› Adventures</a></li>
+                        <li><a href="#food-culture" class="footer-link">› Food & Culture</a></li>
+                        <li><a href="#about" class="footer-link">› About GTravelling</a></li>
+                        <li><a href="#contact" class="footer-link">› Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Popular Destinations -->
+                <div class="footer-col">
+                    <h3 class="footer-col-title">Top Destinations</h3>
+                    <ul class="footer-links">
+                        <li><a href="#destinations" class="footer-link">› Goa Beaches</a></li>
+                        <li><a href="#destinations" class="footer-link">› Rajasthan Forts</a></li>
+                        <li><a href="#destinations" class="footer-link">› Kerala Backwaters</a></li>
+                        <li><a href="#destinations" class="footer-link">› Manali Valley</a></li>
+                        <li><a href="#destinations" class="footer-link">› Jaipur Heritage</a></li>
+                        <li><a href="#destinations" class="footer-link">› Kashmir Paradise</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Newsletter Recap & Hours -->
+                <div class="footer-col">
+                    <h3 class="footer-col-title">Reader Support</h3>
+                    <p style="font-size: 0.92rem; color: rgba(255, 238, 219, 0.75); line-height: 1.6; margin-bottom: 1rem;">
+                        Have a travel query or need custom route advice? Reach out to our community anytime.
+                    </p>
+                    <a href="#contact" class="btn btn-primary btn-sm" style="align-self: flex-start;">Send a Message</a>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Bar -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 GTravelling. All Rights Reserved.</p>
+                <p>Designed with passion for Web Technology &amp; World Explorers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =======================================================================
+         FLOATING BACK TO TOP BUTTON
+         ======================================================================= -->
+    <button id="backToTopBtn" class="back-to-top" aria-label="Back to top of page">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+
+    <!-- =======================================================================
+         BLOG DETAILS MODAL ("Read More" dynamic popup)
+         ======================================================================= -->
+    <div id="blogModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-container">
+            <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close article modal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+
+            <!-- Featured Image -->
+            <img id="modalImg" src="images/hero.jpg" alt="Article Cover" class="modal-featured-img">
+
+            <div class="modal-body">
+                <div class="modal-header-meta">
+                    <span id="modalCategory" class="modal-category">Destinations</span>
+                    <div class="modal-author-date">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                        <span id="modalAuthor">Author</span>
+                        <span>•</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                        <span id="modalDate">Date</span>
+                        <span>•</span>
+                        <span id="modalReadTime">5 min read</span>
+                    </div>
+                </div>
+
+                <h2 id="modalTitle" class="modal-title">Blog Title</h2>
+
+                <!-- Full Article Content Injected Dynamically -->
+                <div id="modalText" class="modal-article-text"></div>
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button id="modalBackBtn" class="modal-back-btn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        Back to Blogs
+                    </button>
+
+                    <div class="modal-share">
+                        <span>Share this story:</span>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); font-weight: 600;">Twitter</a>
+                        <span>•</span>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); font-weight: 600;">Facebook</a>
+                        <span>•</span>
+                        <a href="https://api.whatsapp.com" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); font-weight: 600;">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
